@@ -1,9 +1,9 @@
 # git-initiation: 
 
 
-rappel des commandes de base pour utiliser correctement git et git hub:
+rappel des commandes de base pour utiliser git et git hub:
 
-----------------------------------------| utilitaire git  : depuis son ordinateur |---------------------------
+----------------------------------------| utilitaire git  : depuis son terminal |---------------------------
 
 git init : le dossier courant est maintenant versionné;
 
@@ -19,7 +19,7 @@ git commit reset –hard : les fichiers retournent à la version du dernier comm
 
 git log : affiche l’historique des comits . 
   
----------------------------------------------------|  git hub  |----------------------------------------------
+------------------------------------------| github.com : toujour depuis son terminal |-----------------------
  
 git clone [adresse du repository] : copie dans le dossier courant le repository en ligne . 
 git push [nom branche sur git hub ] : envoie les modifications  locales en ligne, dans la branche choisie sur git hub
