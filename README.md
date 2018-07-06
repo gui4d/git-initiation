@@ -20,15 +20,21 @@ git log : affiche l’historique des comits .
 
 ---------modification d'une branche/ 
 
-/dans le terminal , placer vous dan sle dossier de travail 
+si ce n'est pas déjà fait: 
+
+/dans le terminal , placer vous dans le dossier de travail 
+/si ce n'est pas déjà fait : taper 
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+
 /taper :
-git clone [nom du repository.git]
-git chekout -b [nom-de-branche-evocateur]
-git branch  #verifier que la branche est bien présente 
-Code [nom du fichier a modifier/creer] 
+    git clone [nom du repository.git]
+    git chekout -b [nom-de-branche-evocateur]
+    git branch  #verifier que la branche est bien présente 
+    Code [nom du fichier a modifier/creer] 
 /faire les modifications/ajouts sur les fichiers que l'on veut 
-git add [nomDesFichiersChangées1] [nomDesFichersChangées2]
-git status # verifier l'index 
-git commit -m "un titre explicant les objectifs du commits"
-git branch #verifier que les branches sont à jour 
-git push #envoyer en ligne la branche 
+    git add [nomDesFichiersChangées1] [nomDesFichersChangées2]
+    git status # verifier l'index 
+    git commit -m "un titre explicant les objectifs du commits"
+    git branch #verifier que les branches sont à jour 
+    git push --set-upstream origin [nom-de-la-branche-evocateur] #envoyer en ligne la branche 
