@@ -15,7 +15,7 @@ git commit  -m  ‘‘titre évocateur’’ : enregistrer la modification  dans
 git commit  -a  -m  ‘‘titre évocateur’’ : idem pour un/des fichier/s déjà indexé/s précédemment.
 git commit --amend -m "titre vraiment évocateur" : cacher le dernier commit de l’historique et le remplacer par celui-ci (cacher des bourdes). 
 
-git commit reset –hard : les fichiers retournent à la version du dernier commit. 
+git commit --hard : les fichiers retournent à la version du dernier commit. 
 
 git log : affiche l’historique des comits . 
   
