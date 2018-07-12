@@ -17,7 +17,9 @@ git commit --amend -m "titre vraiment évocateur" : cacher le dernier commit de 
 
 git commit --hard : les fichiers retournent à la version du dernier commit. 
 
-git fetch : metre à jour son repository local 
+git fetch : metre à jour son repository local
+
+git rebase : mettre à jour la branche par rapport au master
 git log : affiche l’historique des comits . 
 
 ------------------------------------------| github.com : toujour depuis son terminal |-----------------------
