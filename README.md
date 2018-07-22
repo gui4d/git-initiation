@@ -28,3 +28,4 @@ git clone [adresse du repository] : copie dans le dossier courant le repository 
 git push [nom branche sur git hub ] : envoie les modifications  locales en ligne, dans la branche choisie sur git hub
 git push -f [nom de branche sur git hub] : force l’envoie des modifications locales en ligne, utile en cas de divergence des branches (par exemple lors de commit amandées ).
 
+traalalalalalal 
