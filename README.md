@@ -15,14 +15,20 @@ git commit  -m  ‘‘titre évocateur’’ : enregistrer la modification  dans
 git commit  -a  -m  ‘‘titre évocateur’’ : idem pour un/des fichier/s déjà indexé/s précédemment.
 git commit --amend -m "titre vraiment évocateur" : cacher le dernier commit de l’historique et le remplacer par celui-ci (cacher des bourdes). 
 
-git commit --hard : les fichiers retournent à la version du dernier commit. 
+git commit --hard : les fichiers retournent à la version du dernier commit.( attention !! à utiliser avec précaussion !! )  
 
-git fetch : metre à jour son repository local
+git fetch : metre à jour son repository local sur le repository global. 
 
-git rebase : mettre à jour la branche par rapport au master
+git rebase : mettre à jour la branche par rapport au master. 
 git log : affiche l’historique des comits . 
+------------------------------------------| interagir avec https://info.nohost.me/gogs/: toujour depuis son terminal |-----------------
+erreur SSL certificate problem : entrer la ligne: git config --global http.sslVerify false
 
-------------------------------------------| github.com : toujour depuis son terminal |-----------------------
+git clone [adresse du repository] : copie dans le dossier courant le repository sur le serveur .
+git push [nom branche sur git hub ] : envoie les modifications  locales en ligne, dans la branche choisie sur git hub
+git push -f [nom de branche sur git hub] : force l’envoie des modifications locales en ligne, utile en cas de divergence des branches (par exemple lors de commit amandées ).
+
+------------------------------------------| interagir avec github.com : toujour depuis son terminal |-----------------------
  
 git clone [adresse du repository] : copie dans le dossier courant le repository en ligne . 
 git push [nom branche sur git hub ] : envoie les modifications  locales en ligne, dans la branche choisie sur git hub
